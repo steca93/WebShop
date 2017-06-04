@@ -34,7 +34,7 @@
 		}
 
 		if (!empty($_FILES)) {
-			var_dump($_FILES);
+			//var_dump($_FILES);
 			$photo = $_FILES['photo'];
 			$name = $photo['name'];
 			$nameArray = explode('.', $name);
@@ -51,6 +51,9 @@
 			}
 			if (!in_array($fileExt, $allowed)) {
 				$errors[] = "The photo must be a png, jpeg, jpg or gif. ";
+			}
+			if ($fileSize > 15000000) {
+				$errors[] = "The file size must be under 15mb.";
 			}
 		}
 
