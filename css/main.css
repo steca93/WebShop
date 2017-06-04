@@ -1,0 +1,45 @@
+body{
+	padding-top: 50px;
+}
+#headerWrapper{
+	position: realtive;
+	padding: 0;
+	margin: 0;
+	height: 600px;
+	background-image: url(../images/headerImages/background-image.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	/*STRANICA IDE PREKO BACKGROUND SLIKE*/
+	background-attachment: fixed;
+}
+#logoText{
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	background-image: url(../images/headerImages/logoText.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70% 180px;
+	top: 50%;
+	margin-top: -210px;
+}
+.img-tumb{
+	width: auto;
+	height: 200px;
+}
+#footer{
+	margin-top: 50px;
+}
+img.details{
+	/*OVDE JE TREBALO DA STOJI 33%, JA SAM PROMENIO NA 100%	*/
+	width: 100%;
+	margin: 15px auto;
+}
+.table-auto{
+	width: auto;
+	margin: 0 auto;
+}
+#add-product-btn{
+	margin-top: -35px;
+}
